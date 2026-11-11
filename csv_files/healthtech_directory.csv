@@ -1,0 +1,91 @@
+Company Name;Primary Focus;Regulatory Status;Date Founded;Clinical Studies Published;Total Raised;Patient Retention (12mo) %;Avg Time to Diagnosis (days);Hospital Partners;HIPAA Audited?;Churn Rate %
+Cobalt Care;Digital Therapeutics;De Novo;09/30/2021;62;$146M;83.9;16.2;19;No;2.8
+Atlas Medical;Health Records;510(k) Cleared;08/25/2016;73;$281M;83.8;44.0;24;Yes;9.7
+Cobalt Medical;Diagnostics;Not Required;06/21/2018;17;$239M;84.8;44.5;39;Yes;14.2
+Kite Health;Health Records;Not Required;01/17/2024;93;$120M;71.7;25.6;18;No;8.6
+Orbit Medical;Diagnostics;Pending;02/26/2017;26;$359M;67.2;28.2;24;No;14.0
+Mira Health;Digital Therapeutics;De Novo;03/13/2019;30;$238M;88.1;8.5;40;Yes;6.2
+Nimbus Health;Telehealth;Pending;05/18/2015;55;$290M;75.4;27.7;18;No;7.7
+Aura Diagnostics;Diagnostics;Not Required;11/06/2017;12;$93M;70.9;2.5;4;No;15.7
+Sable Health;Health Records;Not Required;03/05/2022;104;$362M;95.3;13.2;38;Yes;11.5
+Cobalt Medical;Digital Therapeutics;Pending;07/12/2024;43;$121M;96.7;11.6;4;No;16.9
+Kite Health;Telehealth;510(k) Cleared;11/22/2017;134;$332M;87.0;23.8;8;Yes;5.7
+Orbit Bio;Health Records;510(k) Cleared;08/19/2021;115;$54M;74.8;18.6;26;Yes;6.7
+Helio Care;Diagnostics;Not Required;01/21/2024;39;$7M;74.7;43.9;53;Yes;2.8
+Luma Diagnostics;Wearables;De Novo;12/19/2024;38;$50M;93.9;19.2;3;Yes;8.1
+Pulse Medical;Digital Therapeutics;PMA;04/18/2016;96;$114M;85.9;9.6;30;Yes;7.9
+Zenith Care;Digital Therapeutics;De Novo;10/07/2017;42;N/A;79.0;15.1;53;Yes;4.7
+Pulse Care;Digital Therapeutics;510(k) Cleared;04/12/2016;42;$30M;81.5;38.1;15;No;15.0
+Zenith Medical;Wearables;510(k) Cleared;11/05/2019;69;$122M;59.1;14.7;59;Yes;1.0
+Quanta Health;Digital Therapeutics;PMA;01/19/2024;132;$72M;73.6;38.2;35;No;3.3
+Apex Care;Diagnostics;Not Required;02/07/2018;49;$93M;76.9;12.0;13;Yes;10.8
+Nimbus Care;Wearables;510(k) Cleared;12/19/2016;55;$343M;84.7;39.2;39;No;3.6
+Tidal Care;Telehealth;510(k) Cleared;10/24/2020;91;$328M;91.3;24.3;2;No;16.4
+Quanta Bio;Diagnostics;Not Required;02/01/2017;96;N/A;84.5;28.1;56;Yes;6.4
+Tidal Health;Telehealth;Not Required;01/01/2019;65;$165M;87.7;41.8;38;Yes;5.2
+Sable Care;Health Records;510(k) Cleared;04/16/2015;138;$69M;55.9;46.5;16;Yes;3.0
+Zenith Diagnostics;Telehealth;PMA;03/21/2015;27;$379M;63.2;2.0;40;No;9.4
+Verde Bio;Telehealth;Not Required;01/16/2023;48;N/A;60.2;24.3;34;No;2.0
+Cobalt Medical;Health Records;510(k) Cleared;08/21/2021;61;$76M;83.1;22.8;27;Yes;17.1
+Cobalt Care;Health Records;510(k) Cleared;06/01/2024;137;N/A;95.8;3.6;25;No;7.2
+Lumen Diagnostics;Wearables;PMA;02/21/2024;105;$28M;68.6;8.1;45;No;4.5
+Nova Bio;Telehealth;Not Required;12/14/2020;50;N/A;73.2;24.8;3;Yes;2.5
+Vertex Health;Telehealth;Not Required;05/21/2015;71;$320M;66.5;26.6;4;Yes;4.5
+Nova Care;Diagnostics;Pending;06/11/2015;76;$178M;82.2;6.8;40;No;1.5
+Kite Medical;Digital Therapeutics;Pending;05/22/2016;133;$151M;93.5;28.2;19;Yes;13.2
+Atlas Care;Health Records;Pending;10/17/2022;59;$104M;78.0;18.4;59;No;11.0
+Atlas Health;Diagnostics;Not Required;09/28/2018;59;$280M;71.1;28.6;2;No;2.9
+Pulse Diagnostics;Wearables;De Novo;07/05/2020;72;$111M;67.4;37.3;12;Yes;10.9
+Vertex Health;Health Records;PMA;05/08/2019;115;$391M;59.6;11.7;45;Yes;7.5
+Quanta Medical;Health Records;PMA;11/06/2021;73;$266M;59.0;41.3;50;No;4.8
+Lumen Health;Telehealth;De Novo;08/09/2019;33;$293M;61.3;41.0;19;Yes;6.8
+Vertex Bio;Wearables;Not Required;04/14/2018;93;$285M;80.0;31.5;2;No;6.9
+Helio Diagnostics;Wearables;PMA;01/02/2024;40;$194M;79.4;5.3;60;No;5.8
+Mira Bio;Diagnostics;Pending;10/13/2019;5;N/A;65.8;43.1;21;No;9.7
+Tidal Diagnostics;Digital Therapeutics;Not Required;05/15/2019;121;$305M;83.4;22.4;2;Yes;9.5
+Lumen Bio;Health Records;510(k) Cleared;07/01/2019;42;$216M;75.4;21.8;41;No;12.4
+Helio Bio;Wearables;510(k) Cleared;02/10/2019;22;$263M;62.4;31.9;20;No;14.8
+Lumen Medical;Health Records;Pending;04/02/2018;133;$97M;72.3;4.0;38;Yes;6.4
+Lumen Health;Telehealth;510(k) Cleared;06/10/2018;4;$204M;90.4;28.6;44;Yes;3.5
+Kite Diagnostics;Wearables;Not Required;10/08/2024;139;$74M;79.1;20.4;9;Yes;2.8
+Verde Health;Telehealth;Pending;11/08/2015;46;$252M;89.6;29.9;53;Yes;11.7
+Pulse Medical;Diagnostics;Pending;12/20/2018;73;$137M;81.4;41.4;39;Yes;6.3
+Nimbus Care;Telehealth;Not Required;08/12/2015;59;$299M;87.1;3.3;5;Yes;4.5
+Helio Diagnostics;Diagnostics;510(k) Cleared;07/13/2018;4;$234M;67.8;29.4;58;No;17.6
+Mira Care;Health Records;510(k) Cleared;06/25/2017;108;$365M;75.3;38.3;17;Yes;3.1
+Cobalt Medical;Telehealth;PMA;11/22/2024;77;$186M;59.8;26.2;26;No;7.3
+Verde Care;Wearables;510(k) Cleared;03/18/2021;65;$240M;66.9;12.3;4;No;12.0
+Quanta Medical;Diagnostics;PMA;01/15/2016;53;$66M;78.3;23.1;52;Yes;2.9
+Orbit Care;Digital Therapeutics;PMA;01/21/2022;56;$244M;76.2;11.8;30;Yes;17.0
+Nimbus Care;Health Records;PMA;02/16/2019;139;$312M;76.4;7.1;50;Yes;12.2
+Kite Bio;Digital Therapeutics;510(k) Cleared;04/28/2015;40;$200M;84.8;33.7;51;Yes;5.8
+Luma Diagnostics;Wearables;510(k) Cleared;01/12/2024;131;$99M;57.8;15.8;16;No;2.3
+Atlas Bio;Digital Therapeutics;Not Required;06/20/2024;121;$322M;91.2;7.4;19;Yes;0.5
+Lumen Health;Digital Therapeutics;PMA;10/14/2017;105;$322M;59.1;14.8;19;Yes;12.8
+Cobalt Health;Health Records;510(k) Cleared;10/25/2016;113;$156M;61.6;35.8;37;No;11.3
+Aura Medical;Health Records;De Novo;08/01/2020;136;$223M;83.1;28.1;2;Yes;15.0
+Apex Diagnostics;Health Records;PMA;10/21/2022;15;$349M;59.7;38.2;15;No;13.5
+Lumen Care;Health Records;510(k) Cleared;04/17/2024;59;$47M;69.7;45.6;30;No;12.4
+Tidal Health;Diagnostics;Not Required;10/21/2019;134;$399M;60.4;36.9;4;No;3.1
+Mira Diagnostics;Wearables;De Novo;10/19/2017;18;$178M;72.3;10.6;21;Yes;2.5
+Sable Medical;Diagnostics;Not Required;01/25/2015;134;$69M;94.3;17.6;21;Yes;15.9
+Aura Diagnostics;Diagnostics;De Novo;09/28/2018;33;$390M;94.5;32.9;11;No;15.1
+Orbit Health;Wearables;Not Required;02/20/2015;95;$23M;57.5;14.3;14;Yes;12.6
+Verde Medical;Wearables;Not Required;12/29/2019;122;$149M;62.1;4.6;2;No;17.9
+Luma Bio;Health Records;Not Required;12/19/2017;30;$223M;75.5;37.9;22;Yes;6.5
+Atlas Diagnostics;Wearables;510(k) Cleared;04/28/2022;65;N/A;86.4;2.4;27;Yes;5.3
+Tidal Medical;Telehealth;De Novo;10/19/2023;82;$168M;70.9;31.5;24;No;4.1
+Kite Bio;Wearables;De Novo;09/07/2017;17;N/A;78.8;30.6;54;No;16.3
+Sable Care;Digital Therapeutics;De Novo;03/13/2023;43;$309M;79.4;5.0;46;Yes;2.9
+Cobalt Health;Telehealth;Not Required;07/16/2024;115;$112M;85.4;1.3;55;No;2.6
+Apex Diagnostics;Digital Therapeutics;510(k) Cleared;12/26/2024;89;N/A;55.4;45.9;13;Yes;6.8
+Vertex Diagnostics;Wearables;510(k) Cleared;05/13/2021;53;$278M;68.6;22.8;36;Yes;17.5
+Nimbus Health;Telehealth;Pending;02/08/2023;87;$153M;78.7;20.9;25;No;11.8
+Atlas Bio;Health Records;De Novo;12/04/2024;10;$114M;83.5;22.1;7;Yes;11.9
+Kite Diagnostics;Digital Therapeutics;PMA;01/14/2019;138;$226M;71.6;6.5;13;Yes;9.9
+Mira Bio;Telehealth;510(k) Cleared;02/07/2017;138;$364M;75.5;27.1;16;Yes;13.2
+Aura Health;Digital Therapeutics;Pending;08/15/2022;21;$69M;91.3;27.0;47;Yes;11.3
+Verde Care;Digital Therapeutics;Pending;02/07/2021;46;$99M;78.6;37.5;10;No;14.0
+Cobalt Medical;Telehealth;510(k) Cleared;03/06/2019;13;N/A;80.0;11.2;21;Yes;12.7
+Luma Diagnostics;Diagnostics;Not Required;04/24/2021;32;$182M;62.1;36.1;23;Yes;14.9
+Mira Bio;Health Records;510(k) Cleared;04/08/2023;137;$370M;75.5;39.4;24;Yes;6.4

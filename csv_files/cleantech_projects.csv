@@ -1,0 +1,121 @@
+projectRef,projectName,techType,region,nameplateCapacityMW,capacityFactor,lcoeUsdPerMWh,annualCO2AvoidedTonnes,status,commissionTimestamp,capexUsdBn
+PRJ98502,Mira Offshore Ridge,Offshore Wind,NSW,63.1,0.522,41.56,115187,Decommissioned,2022-12-07T00:00:00Z,1.25
+PRJ29692,Kite Solar Ridge,Solar PV,Jutland,32.3,0.276,101.83,55981,Construction,2024-08-06T00:00:00Z,4.3
+PRJ29783,Sable Green Coast,Green Hydrogen,Bavaria,15.1,0.189,124.51,35042,Planning,2018-11-02T00:00:00Z,1.53
+PRJ72358,Helio Carbon Basin,Carbon Capture,Bavaria,65.5,,45.96,166441,Decommissioned,2018-11-07T00:00:00Z,2.24
+PRJ57315,Vertex Green Ridge,Green Hydrogen,Gujarat,39.5,0.243,75.15,99239,Operating,2018-01-25T00:00:00Z,2.14
+PRJ75536,Zenith Battery Ridge,Battery Storage,Gujarat,51.6,0.281,87.97,104138,Construction,2025-11-01T00:00:00Z,0.94
+PRJ22975,Ember Green Ridge,Green Hydrogen,Jutland,12.3,0.392,115.03,29790,Construction,2025-08-22T00:00:00Z,1.09
+PRJ93258,Mira Carbon Ridge,Carbon Capture,Jutland,20.7,,85.19,36605,Planning,2025-11-24T00:00:00Z,2.15
+PRJ55775,Quanta Offshore II,Offshore Wind,CA,35.4,0.479,18.88,85646,Operating,2022-07-17T00:00:00Z,2.58
+PRJ43045,Aura Green Coast,Green Hydrogen,Alberta,40.1,0.446,132.37,67234,Construction,2024-07-17T00:00:00Z,4.5
+PRJ56789,Lumen Green I,Green Hydrogen,Jutland,7.8,0.545,77.11,19178,Operating,2020-11-20T00:00:00Z,2.99
+PRJ12630,Orbit Carbon I,Carbon Capture,Bavaria,13.9,,72.65,34055,Operating,2027-09-10T00:00:00Z,2.81
+PRJ88777,Apex Solar I,Solar PV,TX,3.9,0.536,116.76,9460,Operating,2026-01-24T00:00:00Z,1.35
+PRJ52322,Nova Onshore II,Onshore Wind,NSW,9.9,0.186,57.86,22266,Operating,2022-07-19T00:00:00Z,3.24
+PRJ64299,Apex Carbon I,Carbon Capture,Alberta,23.9,,92.76,54644,Decommissioned,2022-06-25T00:00:00Z,1.83
+PRJ64412,Nimbus Battery Ridge,Battery Storage,CA,12.2,0.296,29.4,17308,Construction,2023-12-09T00:00:00Z,3.87
+PRJ99148,Aura Solar Coast,Solar PV,CA,21.8,0.307,98.2,44520,Operating,2020-07-31T00:00:00Z,3.76
+PRJ94843,Atlas Offshore Coast,Offshore Wind,Alberta,102.7,0.192,73.29,163249,Decommissioned,2023-12-10T00:00:00Z,4.56
+PRJ57513,Quanta Onshore II,Onshore Wind,Bavaria,11.5,0.217,110.3,15248,Planning,2025-01-02T00:00:00Z,1.34
+PRJ43962,Nimbus Solar Ridge,Solar PV,Alberta,36.7,0.468,36.22,53156,Construction,2023-12-05T00:00:00Z,0.92
+PRJ75396,Orbit Carbon Ridge,Carbon Capture,Jutland,67.2,,65.46,100594,Planning,2019-03-18T00:00:00Z,3.44
+PRJ83950,Cobalt Solar Basin,Solar PV,Bavaria,8.5,0.202,133.28,17663,Construction,2018-05-06T00:00:00Z,1.81
+PRJ52735,Lumen Offshore Ridge,Offshore Wind,NSW,55.7,0.311,125.29,105721,Decommissioned,2026-11-14T00:00:00Z,1.43
+PRJ10515,Sable Carbon II,Carbon Capture,CA,21.9,,57.01,44990,Operating,2020-05-18T00:00:00Z,3.12
+PRJ67550,Helio Carbon Basin,Carbon Capture,Jutland,10.0,,35.06,25107,Planning,2027-01-11T00:00:00Z,1.25
+PRJ56094,Verde Solar II,Solar PV,Bavaria,12.3,0.366,101.3,16314,Operating,2025-03-15T00:00:00Z,4.47
+PRJ86713,Mira Geothermal II,Geothermal,Jutland,24.7,0.511,94.54,30171,Construction,2023-08-30T00:00:00Z,3.18
+PRJ51483,Luma Green I,Green Hydrogen,TX,28.6,0.187,134.77,73182,Decommissioned,2022-10-22T00:00:00Z,0.81
+PRJ75631,Verde Onshore Coast,Onshore Wind,NSW,49.9,0.453,120.43,126753,Planning,2021-12-02T00:00:00Z,4.68
+PRJ33228,Nova Carbon Ridge,Carbon Capture,NSW,60.4,,26.41,76132,Decommissioned,2018-07-16T00:00:00Z,2.43
+PRJ15427,Vertex Green Coast,Green Hydrogen,NSW,106.0,0.301,84.95,229639,Operating,2022-06-24T00:00:00Z,2.49
+PRJ28750,Nova Green II,Green Hydrogen,Gujarat,23.4,0.332,79.13,60468,Decommissioned,2026-03-10T00:00:00Z,2.31
+PRJ91373,Apex Onshore I,Onshore Wind,Bavaria,205.5,0.212,102.69,339922,Operating,2024-02-27T00:00:00Z,3.47
+PRJ40727,Cobalt Battery Ridge,Battery Storage,Alberta,34.7,0.548,25.82,89051,Operating,2024-11-15T00:00:00Z,3.44
+PRJ81180,Mira Carbon Coast,Carbon Capture,Jutland,13.4,,50.32,33128,Operating,2027-08-15T00:00:00Z,3.69
+PRJ18631,Tidal Green Ridge,Green Hydrogen,Gujarat,49.1,0.55,42.99,70546,Operating,2020-09-04T00:00:00Z,3.49
+PRJ95470,Apex Onshore Ridge,Onshore Wind,Bavaria,102.1,0.417,62.14,245965,Operating,2019-05-19T00:00:00Z,2.44
+PRJ78496,Tidal Geothermal Ridge,Geothermal,Bavaria,19.6,0.312,98.79,31066,Operating,2023-01-02T00:00:00Z,3.58
+PRJ77808,Quanta Battery I,Battery Storage,Alberta,85.1,0.245,33.92,160353,Construction,2024-12-25T00:00:00Z,2.28
+PRJ10105,Aura Offshore Ridge,Offshore Wind,TX,70.9,0.386,90.05,115507,Decommissioned,2021-01-29T00:00:00Z,4.47
+PRJ93380,Sable Offshore I,Offshore Wind,CA,1.8,0.214,33.65,4575,Operating,2024-12-05T00:00:00Z,3.92
+PRJ48698,Lumen Solar Basin,Solar PV,Alberta,63.9,0.195,92.11,99653,Construction,2022-04-28T00:00:00Z,4.2
+PRJ86049,Ember Onshore I,Onshore Wind,Alberta,89.3,0.539,42.78,214700,Planning,2026-06-24T00:00:00Z,2.58
+PRJ13354,Verde Battery Coast,Battery Storage,Gujarat,36.5,0.513,74.43,67417,Operating,2022-08-27T00:00:00Z,4.78
+PRJ77081,Nova Onshore II,Onshore Wind,Alberta,123.3,0.362,42.43,241462,Operating,2024-03-18T00:00:00Z,2.12
+PRJ20110,Aura Battery I,Battery Storage,TX,59.0,0.262,78.63,140857,Construction,2024-04-30T00:00:00Z,2.62
+PRJ73280,Apex Carbon Coast,Carbon Capture,Alberta,108.0,,109.25,257155,Construction,2022-07-25T00:00:00Z,4.07
+PRJ34936,Tidal Carbon I,Carbon Capture,CA,47.1,,138.62,74632,Operating,2018-12-21T00:00:00Z,2.05
+PRJ65079,Apex Offshore Ridge,Offshore Wind,NSW,51.5,0.326,48.32,89214,Operating,2027-08-10T00:00:00Z,2.96
+PRJ74092,Aura Offshore II,Offshore Wind,NSW,37.0,0.352,131.52,62103,Operating,2025-12-05T00:00:00Z,3.02
+PRJ37441,Aura Solar Coast,Solar PV,Bavaria,12.9,0.254,67.53,28624,Construction,2027-11-06T00:00:00Z,1.61
+PRJ19427,Nimbus Onshore Basin,Onshore Wind,CA,23.4,0.198,19.73,51709,Construction,2023-08-03T00:00:00Z,1.68
+PRJ30834,Quanta Geothermal II,Geothermal,Gujarat,52.9,0.258,30.31,70533,Planning,2018-07-26T00:00:00Z,2.46
+PRJ65650,Quanta Geothermal I,Geothermal,Alberta,282.2,0.344,34.27,401910,Operating,2021-04-17T00:00:00Z,3.83
+PRJ83475,Quanta Carbon Ridge,Carbon Capture,NSW,41.6,,57.58,98918,Construction,2026-12-19T00:00:00Z,3.46
+PRJ93988,Atlas Onshore II,Onshore Wind,Alberta,26.8,0.321,84.58,35672,Operating,2019-09-02T00:00:00Z,3.71
+PRJ56113,Verde Battery II,Battery Storage,Alberta,19.6,0.194,132.61,37963,Operating,2023-06-30T00:00:00Z,2.19
+PRJ46700,Atlas Carbon Coast,Carbon Capture,Gujarat,87.8,,83.97,116230,Construction,2023-04-11T00:00:00Z,1.88
+PRJ49303,Apex Carbon Coast,Carbon Capture,Gujarat,77.0,,30.28,92541,Construction,2019-09-16T00:00:00Z,3.43
+PRJ53195,Ember Solar II,Solar PV,TX,12.8,0.358,114.1,20704,Planning,2026-02-12T00:00:00Z,3.04
+PRJ61545,Vertex Solar I,Solar PV,TX,56.0,0.24,22.83,112612,Operating,2025-04-03T00:00:00Z,3.59
+PRJ96919,Helio Battery Ridge,Battery Storage,CA,41.6,0.319,98.85,55164,Planning,2027-06-13T00:00:00Z,3.38
+PRJ22322,Verde Carbon II,Carbon Capture,TX,31.7,,36.68,50043,Decommissioned,2019-04-27T00:00:00Z,2.1
+PRJ58090,Orbit Onshore Ridge,Onshore Wind,Bavaria,8.5,0.368,85.75,21958,Construction,2026-02-24T00:00:00Z,4.29
+PRJ17033,Sable Green Coast,Green Hydrogen,CA,19.2,0.219,102.05,29203,Construction,2019-09-22T00:00:00Z,4.16
+PRJ84686,Verde Solar I,Solar PV,Alberta,22.6,0.221,88.58,34521,Decommissioned,2026-09-10T00:00:00Z,3.94
+PRJ38167,Nimbus Geothermal II,Geothermal,Jutland,9.8,0.216,55.04,12913,Operating,2024-08-21T00:00:00Z,4.48
+PRJ31906,Quanta Solar Ridge,Solar PV,Jutland,62.8,0.369,35.13,92786,Construction,2025-09-11T00:00:00Z,2.12
+PRJ19048,Nimbus Solar I,Solar PV,CA,30.7,0.468,123.73,39003,Operating,2026-10-27T00:00:00Z,2.45
+PRJ74560,Sable Geothermal II,Geothermal,NSW,62.2,0.24,119.07,156246,Planning,2026-05-10T00:00:00Z,2.66
+PRJ67058,Cobalt Carbon Coast,Carbon Capture,NSW,133.2,,109.26,270534,Planning,2018-10-06T00:00:00Z,4.67
+PRJ40420,Mira Carbon II,Carbon Capture,Gujarat,326.4,,73.86,499816,Operating,2024-06-13T00:00:00Z,4.43
+PRJ54911,Cobalt Geothermal Basin,Geothermal,TX,55.2,0.412,45.86,118167,Operating,2025-06-09T00:00:00Z,3.18
+PRJ49383,Sable Carbon Coast,Carbon Capture,TX,27.1,,134.02,65839,Operating,2022-09-11T00:00:00Z,2.44
+PRJ56362,Cobalt Offshore Basin,Offshore Wind,Gujarat,29.3,0.259,21.97,48935,Operating,2020-02-07T00:00:00Z,3.6
+PRJ38353,Apex Battery Basin,Battery Storage,Jutland,22.7,0.269,127.38,39624,Operating,2019-09-11T00:00:00Z,2.25
+PRJ61688,Atlas Onshore Basin,Onshore Wind,NSW,7.2,0.506,134.61,13748,Decommissioned,2020-02-15T00:00:00Z,4.23
+PRJ23597,Mira Onshore Basin,Onshore Wind,Gujarat,26.9,0.496,116.75,41726,Operating,2025-08-01T00:00:00Z,1.2
+PRJ27699,Zenith Green Basin,Green Hydrogen,TX,199.0,0.426,80.74,331053,Operating,2021-04-26T00:00:00Z,2.25
+PRJ98676,Apex Geothermal Basin,Geothermal,Bavaria,116.6,0.527,62.37,299275,Planning,2027-10-25T00:00:00Z,4.14
+PRJ77172,Quanta Geothermal Coast,Geothermal,Alberta,10.4,0.295,73.98,26286,Operating,2019-07-16T00:00:00Z,0.83
+PRJ16117,Cobalt Offshore II,Offshore Wind,Alberta,6.5,0.393,89.93,16738,Construction,2021-04-07T00:00:00Z,3.89
+PRJ59871,Sable Solar Ridge,Solar PV,Alberta,139.7,0.43,128.15,231047,Decommissioned,2023-07-24T00:00:00Z,4.1
+PRJ36317,Tidal Carbon I,Carbon Capture,CA,58.9,,55.58,113602,Operating,2018-08-08T00:00:00Z,3.15
+PRJ45697,Atlas Battery Basin,Battery Storage,CA,75.0,0.437,93.73,187445,Operating,2019-03-21T00:00:00Z,3.53
+PRJ44976,Verde Offshore II,Offshore Wind,Gujarat,23.9,0.537,72.93,56690,Construction,2026-09-25T00:00:00Z,4.37
+PRJ20022,Zenith Solar Basin,Solar PV,NSW,29.2,0.428,105.51,51210,Operating,2027-07-20T00:00:00Z,3.32
+PRJ84248,Atlas Offshore Ridge,Offshore Wind,Gujarat,30.1,0.377,132.67,47309,Construction,2027-12-08T00:00:00Z,1.08
+PRJ24584,Atlas Green II,Green Hydrogen,Alberta,4.9,0.486,39.52,10839,Planning,2026-09-08T00:00:00Z,2.42
+PRJ54149,Ember Carbon II,Carbon Capture,Alberta,20.3,,124.34,39474,Decommissioned,2022-08-22T00:00:00Z,3.48
+PRJ64159,Luma Offshore Coast,Offshore Wind,TX,11.6,0.204,121.94,24765,Decommissioned,2022-11-07T00:00:00Z,2.41
+PRJ27361,Quanta Green II,Green Hydrogen,Alberta,247.1,0.431,121.66,379099,Planning,2021-03-03T00:00:00Z,4.4
+PRJ60375,Nimbus Geothermal Ridge,Geothermal,Alberta,24.2,0.42,26.21,49482,Decommissioned,2021-01-23T00:00:00Z,3.23
+PRJ20311,Ember Onshore I,Onshore Wind,Alberta,18.9,0.391,81.11,25904,Operating,2020-06-13T00:00:00Z,0.81
+PRJ68418,Aura Geothermal Coast,Geothermal,Gujarat,81.5,0.366,116.5,102319,Operating,2019-03-29T00:00:00Z,2.73
+PRJ84508,Mira Offshore II,Offshore Wind,Gujarat,48.0,0.302,114.8,71644,Decommissioned,2024-01-09T00:00:00Z,3.65
+PRJ92576,Zenith Onshore I,Onshore Wind,Gujarat,33.6,0.203,31.71,58680,Decommissioned,2022-08-03T00:00:00Z,1.71
+PRJ96222,Zenith Carbon I,Carbon Capture,Alberta,19.7,,76.3,27329,Operating,2025-08-28T00:00:00Z,4.32
+PRJ62805,Helio Green Ridge,Green Hydrogen,Jutland,29.1,0.25,41.69,64904,Decommissioned,2018-03-09T00:00:00Z,2.55
+PRJ36368,Kite Onshore Ridge,Onshore Wind,Alberta,279.1,0.466,113.91,343873,Decommissioned,2026-01-26T00:00:00Z,0.86
+PRJ44575,Kite Offshore Ridge,Offshore Wind,Alberta,390.6,0.413,37.96,814448,Operating,2021-06-06T00:00:00Z,1.22
+PRJ69645,Verde Geothermal Ridge,Geothermal,TX,12.8,0.513,122.69,21881,Operating,2023-06-14T00:00:00Z,4.76
+PRJ26818,Verde Offshore Coast,Offshore Wind,Gujarat,95.8,0.484,48.65,167120,Operating,2020-10-28T00:00:00Z,3.43
+PRJ60351,Helio Onshore Basin,Onshore Wind,CA,165.7,0.451,34.87,224620,Decommissioned,2023-12-17T00:00:00Z,2.32
+PRJ52384,Pulse Solar Coast,Solar PV,Gujarat,9.0,0.518,126.01,16905,Construction,2018-01-31T00:00:00Z,1.77
+PRJ26546,Orbit Offshore Basin,Offshore Wind,Bavaria,25.9,0.399,87.79,64456,Operating,2026-07-17T00:00:00Z,1.07
+PRJ95446,Mira Geothermal Basin,Geothermal,Alberta,659.0,0.243,125.44,1349799,Planning,2023-08-02T00:00:00Z,3.2
+PRJ10642,Cobalt Solar Coast,Solar PV,Jutland,218.0,0.509,108.92,330019,Planning,2020-09-20T00:00:00Z,1.18
+PRJ38782,Apex Onshore Coast,Onshore Wind,Alberta,10.8,0.524,88.52,19216,Planning,2019-09-21T00:00:00Z,2.67
+PRJ22658,Helio Battery II,Battery Storage,Jutland,56.9,0.54,82.55,117343,Operating,2019-03-10T00:00:00Z,2.84
+PRJ75860,Kite Battery Coast,Battery Storage,Gujarat,147.4,0.484,90.54,341866,Planning,2025-12-01T00:00:00Z,1.02
+PRJ83387,Orbit Green I,Green Hydrogen,CA,49.4,0.428,119.22,115407,Operating,2020-05-05T00:00:00Z,1.29
+PRJ90305,Luma Geothermal Coast,Geothermal,Gujarat,128.3,0.544,61.01,170850,Construction,2027-07-13T00:00:00Z,4.33
+PRJ48760,Quanta Solar Basin,Solar PV,Gujarat,11.4,0.294,88.3,19024,Construction,2018-01-29T00:00:00Z,1.12
+PRJ78173,Cobalt Solar Basin,Solar PV,Bavaria,3.1,0.402,130.7,6213,Construction,2026-07-05T00:00:00Z,3.73
+PRJ66462,Apex Carbon II,Carbon Capture,Gujarat,48.0,,133.02,87285,Construction,2020-10-31T00:00:00Z,3.95
+PRJ22414,Helio Carbon Basin,Carbon Capture,CA,21.7,,137.67,45909,Operating,2026-07-20T00:00:00Z,3.29
+PRJ64056,Kite Carbon I,Carbon Capture,NSW,18.8,,46.16,45887,Operating,2018-01-08T00:00:00Z,3.88
+PRJ20392,Kite Carbon II,Carbon Capture,TX,15.6,,22.32,37315,Operating,2025-01-12T00:00:00Z,2.15
+PRJ79588,Apex Solar Coast,Solar PV,CA,256.7,0.24,132.43,454489,Decommissioned,2025-09-26T00:00:00Z,3.91

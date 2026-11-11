@@ -16,7 +16,7 @@ The confirmed upload is sent to `POST /api/articles/generate`. The server recalc
 
 After reading the preview, the user explicitly confirms publication. `POST /api/articles/publish` revalidates and rebuilds the article, then saves it through the transactional `publish_article` database function. If Supabase is unavailable, the preview remains readable and nothing is partially saved.
 
-Configure `NUXT_SUPABASE_URL` and `NUXT_SUPABASE_SECRET_KEY` as private server variables, then apply [the Supabase migration](supabase/migrations/20261111160000_article_publishing.sql). It creates the generic dataset, article and section tables and the atomic publishing RPC. The secret key must remain server-only.
+Configure `NUXT_SUPABASE_URL` and `NUXT_SUPABASE_SECRET_KEY` as private server variables, then apply [the Supabase migration](supabase/migrations/20261111160000_article_publishing.sql). It creates the generic dataset, article and section tables and the atomic publishing RPC.
 
 Set `NUXT_PUBLIC_SITE_URL` to the production origin, for example `https://example.com`. Canonical links, Open Graph URLs, JSON-LD, `robots.txt`, and the dynamic sitemap use this value. When it is omitted locally, the application falls back to the current request origin.
 
