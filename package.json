@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "tsx --test tests/*.test.ts",
+    "build": "nuxt build",
+    "dev": "nuxt dev --host 127.0.0.1 --port 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@google/genai": "^3.1.0",
+    "@supabase/server": "^1.9.2",
+    "@supabase/supabase-js": "^2.119.0",
+    "nuxt": "^4.6.4",
+    "papaparse": "^5.7.0",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/papaparse": "^5.5.2",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.14"
+  }
+}

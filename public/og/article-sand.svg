@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" rx="28" fill="#403f37"/>
+  <g opacity=".12" stroke="#fff"><path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/><path d="M150 0v630M300 0v630M450 0v630M600 0v630M750 0v630M900 0v630M1050 0v630"/></g>
+  <circle cx="990" cy="110" r="360" fill="none" stroke="#fff" opacity=".26" stroke-width="2"/>
+  <circle cx="900" cy="470" r="270" fill="#e8b87a"/>
+  <g fill="#f8f2e7"><rect x="650" y="388" width="74" height="132" rx="3"/><rect x="754" y="332" width="74" height="188" rx="3"/><rect x="858" y="278" width="74" height="242" rx="3"/><rect x="962" y="218" width="74" height="302" rx="3"/></g>
+  <text x="72" y="82" fill="#e8b87a" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="5">DATA / STORY</text>
+  <text x="72" y="430" fill="#fff" font-family="Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">BG</text>
+  <text x="72" y="490" fill="#fff" opacity=".82" font-family="Arial, sans-serif" font-size="28">Company data, clearly told.</text>
+</svg>
