@@ -24,7 +24,6 @@ The final generation contract and assembler live in `shared/utils/articleGenerat
 
 Run `npm test`, `npx nuxt typecheck`, and `npm run build` to verify changes. Tests use synthetic data and make no Gemini calls.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
@@ -96,4 +95,3 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
