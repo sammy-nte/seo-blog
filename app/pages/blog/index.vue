@@ -111,7 +111,7 @@ useHead(() => ({
           {{ featuredArticle.excerpt }}
         </p>
         <div
-          class="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-semibold text-white/65"
+          class="mt-7 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-semibold text-white/65"
         >
           <span>{{ formatArticleDate(featuredArticle.publishedAt) }}</span
           ><span aria-hidden="true">•</span
