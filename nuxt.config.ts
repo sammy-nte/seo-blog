@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     geminiApiKey: '',
-    geminiModel: 'gemini-3.8-flash',
+    geminiModel: '',
     supabaseUrl: '',
     supabaseSecretKey: '',
     public: {
