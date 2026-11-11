@@ -141,10 +141,6 @@ useSeoMeta({
   ogImageWidth: 1200,
   ogImageHeight: 630,
   articlePublishedTime: () => article.value.publishedAt,
-  twitterCard: "summary_large_image",
-  twitterTitle: () => article.value.seoTitle,
-  twitterDescription: () => article.value.metaDescription,
-  twitterImage: () => shareImageUrl.value,
 });
 
 useHead(() => ({

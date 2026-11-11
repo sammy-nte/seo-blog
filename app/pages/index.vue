@@ -15,11 +15,6 @@ useSeoMeta({
   ogImageAlt: "BG data story illustration",
   ogImageWidth: 1200,
   ogImageHeight: 630,
-  twitterCard: "summary_large_image",
-  twitterTitle: "BG — Turn your data into a story worth finding",
-  twitterDescription:
-    "Turn a dataset into a clear, searchable blog story. Upload a CSV, choose what matters, and share the result.",
-  twitterImage: () => shareImageUrl.value,
 });
 
 useHead(() => ({

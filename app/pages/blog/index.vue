@@ -35,10 +35,6 @@ useSeoMeta({
   ogImageAlt: "BG company data stories illustration",
   ogImageWidth: 1200,
   ogImageHeight: 630,
-  twitterCard: "summary_large_image",
-  twitterTitle: "Company data stories — BG",
-  twitterDescription: pageDescription,
-  twitterImage: () => shareImageUrl.value,
 });
 
 useHead(() => ({

@@ -11,7 +11,7 @@ create table if not exists public.datasets (
 
 create table if not exists public.articles (
   id uuid primary key default gen_random_uuid(),
-  dataset_id uuid not null references public.datasets(id) on delete restrict,
+  dataset_id uuid not null references public.datasets(id) on delete cascade,
   slug text not null unique,
   seo_title text not null,
   meta_description text not null,

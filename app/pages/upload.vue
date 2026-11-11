@@ -31,11 +31,6 @@ useSeoMeta({
   ogImageAlt: "BG CSV data story illustration",
   ogImageWidth: 1200,
   ogImageHeight: 630,
-  twitterCard: "summary_large_image",
-  twitterTitle: "Upload a CSV — BG",
-  twitterDescription:
-    "Upload a CSV and choose the data metric for your blog story.",
-  twitterImage: () => shareImageUrl.value,
 });
 
 useHead(() => ({
