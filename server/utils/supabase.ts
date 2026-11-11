@@ -3,7 +3,7 @@ import { createAdminClient } from '@supabase/server/core'
 export function getSupabaseServerClient() {
   const config = useRuntimeConfig()
   if (!config.supabaseUrl || !config.supabaseSecretKey) {
-    throw createError({ statusCode: 503, statusMessage: 'Supabase is not configured. Set the private URL and secret key server variables.' })
+    throw createError({ statusCode: 503, statusMessage: 'This service is temporarily unavailable. Please try again later.' })
   }
   return createAdminClient({
     env: {

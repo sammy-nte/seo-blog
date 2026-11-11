@@ -36,7 +36,7 @@ export async function persistPublishedArticle(article: BlogArticle, request: unk
     p_sections: article.sections
   })
   if (error || !data) {
-    throw createError({ statusCode: 502, statusMessage: 'The article could not be saved. Nothing was published.' })
+    throw createError({ statusCode: 502, statusMessage: 'The article could not be published. Please try again.' })
   }
   return data as { article_id: string; dataset_id: string; slug: string }
 }
@@ -50,7 +50,7 @@ export async function loadPublishedArticleSummaries(): Promise<BlogArticleSummar
     .limit(100)
 
   if (error) {
-    throw createError({ statusCode: 502, statusMessage: 'Published articles could not be loaded.' })
+    throw createError({ statusCode: 502, statusMessage: 'Articles are temporarily unavailable. Please try again later.' })
   }
 
   return (data ?? []).map(article => ({
@@ -73,11 +73,11 @@ export async function loadPublishedArticle(slug: string): Promise<BlogArticle | 
     .select('*, article_sections(position, heading, paragraphs)')
     .eq('slug', slug)
     .maybeSingle()
-  if (error) throw createError({ statusCode: 502, statusMessage: 'The published article could not be loaded.' })
+  if (error) throw createError({ statusCode: 502, statusMessage: 'This article is temporarily unavailable. Please try again later.' })
   if (!article) return null
 
   const { data: dataset, error: datasetError } = await supabase.from('datasets').select('*').eq('id', article.dataset_id).single()
-  if (datasetError || !dataset) throw createError({ statusCode: 502, statusMessage: 'The article dataset could not be loaded.' })
+  if (datasetError || !dataset) throw createError({ statusCode: 502, statusMessage: 'This article is temporarily unavailable. Please try again later.' })
 
   const request = finalGenerationRequestSchema.parse({
     dataset: { fileName: dataset.source_filename, headers: dataset.column_names, rows: dataset.records },

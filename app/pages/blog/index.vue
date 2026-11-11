@@ -145,7 +145,7 @@ useHead(() => ({
       <p class="mt-5 max-w-[560px] text-base leading-7 text-[#656b63]">
         {{
           error
-            ? "Check the Supabase server configuration and try again."
+            ? "Please try again in a moment."
             : "Upload a company dataset, generate the article, review it, and confirm publication."
         }}
       </p>

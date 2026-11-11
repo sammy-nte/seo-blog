@@ -15,7 +15,7 @@ export default defineEventHandler(async (event) => {
   if (origin && origin !== getRequestURL(event).origin) {
     throw createError({
       statusCode: 403,
-      statusMessage: "Suggestions must be requested from this application.",
+      statusMessage: "This action could not be completed.",
     });
   }
 
@@ -25,7 +25,7 @@ export default defineEventHandler(async (event) => {
     throw createError({
       statusCode: 413,
       statusMessage:
-        "The prepared dataset is too large. Please use fewer columns or shorter sample values.",
+        "This file contains too much data to process. Please use a smaller file.",
     });
   }
 
@@ -34,7 +34,7 @@ export default defineEventHandler(async (event) => {
   if (!raw || Buffer.byteLength(raw) > maxBytes) {
     throw createError({
       statusCode: 413,
-      statusMessage: "The prepared dataset is empty or too large.",
+      statusMessage: "This file could not be processed. Please try another file.",
     });
   }
 
@@ -45,7 +45,7 @@ export default defineEventHandler(async (event) => {
   } catch {
     throw createError({
       statusCode: 400,
-      statusMessage: "Please submit a valid JSON dataset.",
+      statusMessage: "We could not process this data. Please try again.",
     });
   }
 
@@ -55,7 +55,7 @@ export default defineEventHandler(async (event) => {
     throw createError({
       statusCode: 400,
       statusMessage:
-        "The prepared dataset is invalid. Check the columns and numerical candidates, then try again.",
+        "We could not process this data. Please check the file and try again.",
     });
   }
 
@@ -64,16 +64,14 @@ export default defineEventHandler(async (event) => {
   if (!config.geminiApiKey) {
     throw createError({
       statusCode: 503,
-      statusMessage:
-        "Suggestions are not configured. Set NUXT_GEMINI_API_KEY on the server.",
+      statusMessage: "Suggestions are temporarily unavailable. Please try again later.",
     });
   }
 
   if (!config.geminiModel) {
     throw createError({
       statusCode: 503,
-      statusMessage:
-        "Gemini model is not configured. Set NUXT_GEMINI_MODEL on the server.",
+      statusMessage: "Suggestions are temporarily unavailable. Please try again later.",
     });
   }
 
@@ -127,23 +125,21 @@ export default defineEventHandler(async (event) => {
       if (error.status === 429) {
         throw createError({
           statusCode: 429,
-          statusMessage:
-            "Gemini is currently rate limited or out of quota.",
+          statusMessage: "Suggestions are temporarily unavailable. Please try again shortly.",
         });
       }
 
       if (error.status === 503 || error.status === 504) {
         throw createError({
           statusCode: 503,
-          statusMessage:
-            "Gemini is temporarily busy. Please try again.",
+          statusMessage: "Suggestions are temporarily unavailable. Please try again shortly.",
         });
       }
     }
 
     throw createError({
       statusCode: 502,
-      statusMessage: "Gemini could not complete the request.",
+      statusMessage: "Suggestions could not be prepared. Please try again.",
     });
   }
 
@@ -155,8 +151,7 @@ export default defineEventHandler(async (event) => {
   } catch {
     throw createError({
       statusCode: 502,
-      statusMessage:
-        "Gemini returned an incomplete or unsupported recommendation. Please try again.",
+      statusMessage: "Suggestions could not be prepared. Please try again.",
     });
   }
 });

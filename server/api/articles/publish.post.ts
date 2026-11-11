@@ -19,26 +19,26 @@ export default defineEventHandler(async (event) => {
   setHeader(event, 'Cache-Control', 'no-store')
   const origin = getHeader(event, 'origin')
   if (origin && origin !== getRequestURL(event).origin) {
-    throw createError({ statusCode: 403, statusMessage: 'Articles must be published from this application.' })
+    throw createError({ statusCode: 403, statusMessage: 'This action could not be completed.' })
   }
   const maxBytes = 12 * 1024 * 1024
-  if (Number(getHeader(event, 'content-length')) > maxBytes) throw createError({ statusCode: 413, statusMessage: 'The article dataset is too large to publish.' })
+  if (Number(getHeader(event, 'content-length')) > maxBytes) throw createError({ statusCode: 413, statusMessage: 'This file contains too much data to process. Please use a smaller file.' })
   const raw = await readRawBody(event)
-  if (!raw || Buffer.byteLength(raw) > maxBytes) throw createError({ statusCode: 413, statusMessage: 'The publish request is empty or too large.' })
+  if (!raw || Buffer.byteLength(raw) > maxBytes) throw createError({ statusCode: 413, statusMessage: 'This article could not be published. Please try again.' })
 
   let body: unknown
   try { body = JSON.parse(raw) } catch {
-    throw createError({ statusCode: 400, statusMessage: 'Please submit a valid publish request.' })
+    throw createError({ statusCode: 400, statusMessage: 'This article could not be published. Please try again.' })
   }
   const parsed = publishRequestSchema.safeParse(body)
-  if (!parsed.success) throw createError({ statusCode: 400, statusMessage: 'The article preview is no longer valid.' })
+  if (!parsed.success) throw createError({ statusCode: 400, statusMessage: 'This article could not be published. Please generate it again.' })
 
   let prepared: ReturnType<typeof prepareFinalGeneration>
   try {
     prepared = prepareFinalGeneration(parsed.data.request)
     validateEditorialNumbers(parsed.data.editorial, prepared.context)
   } catch {
-    throw createError({ statusCode: 400, statusMessage: 'The article data could not be revalidated for publishing.' })
+    throw createError({ statusCode: 400, statusMessage: 'This article could not be published. Please generate it again.' })
   }
 
   const article = assembleBlogArticle(
@@ -48,7 +48,7 @@ export default defineEventHandler(async (event) => {
     new Date(parsed.data.publishedAt)
   )
   if (article.slug !== parsed.data.slug) {
-    throw createError({ statusCode: 400, statusMessage: 'The article preview identity is invalid.' })
+    throw createError({ statusCode: 400, statusMessage: 'This article could not be published. Please generate it again.' })
   }
   await persistPublishedArticle(article, parsed.data.request)
   return { slug: article.slug, url: `/blog/${article.slug}` }

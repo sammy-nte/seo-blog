@@ -13,31 +13,31 @@ export default defineEventHandler(async (event) => {
   setHeader(event, 'Cache-Control', 'no-store')
   const origin = getHeader(event, 'origin')
   if (origin && origin !== getRequestURL(event).origin) {
-    throw createError({ statusCode: 403, statusMessage: 'Articles must be generated from this application.' })
+    throw createError({ statusCode: 403, statusMessage: 'This action could not be completed.' })
   }
 
   const maxBytes = 12 * 1024 * 1024
   if (Number(getHeader(event, 'content-length')) > maxBytes) {
-    throw createError({ statusCode: 413, statusMessage: 'The dataset is too large to publish.' })
+    throw createError({ statusCode: 413, statusMessage: 'This file contains too much data to process. Please use a smaller file.' })
   }
   const raw = await readRawBody(event)
-  if (!raw || Buffer.byteLength(raw) > maxBytes) throw createError({ statusCode: 413, statusMessage: 'The dataset is empty or too large.' })
+  if (!raw || Buffer.byteLength(raw) > maxBytes) throw createError({ statusCode: 413, statusMessage: 'This file could not be processed. Please try another file.' })
 
   let body: unknown
   try { body = JSON.parse(raw) } catch {
-    throw createError({ statusCode: 400, statusMessage: 'Please submit a valid article-generation request.' })
+    throw createError({ statusCode: 400, statusMessage: 'We could not process this request. Please try again.' })
   }
   const requestResult = finalGenerationRequestSchema.safeParse(body)
   if (!requestResult.success) {
-    throw createError({ statusCode: 400, statusMessage: 'The confirmed dataset and selections are invalid.' })
+    throw createError({ statusCode: 400, statusMessage: 'We could not process the selected data. Please review your choices and try again.' })
   }
 
   const config = useRuntimeConfig(event)
-  if (!config.geminiApiKey) throw createError({ statusCode: 503, statusMessage: 'Article generation is not configured.' })
+  if (!config.geminiApiKey) throw createError({ statusCode: 503, statusMessage: 'Article generation is temporarily unavailable. Please try again later.' })
 
   let prepared: ReturnType<typeof prepareFinalGeneration>
   try { prepared = prepareFinalGeneration(requestResult.data) } catch {
-    throw createError({ statusCode: 400, statusMessage: 'The confirmed statistics could not be verified from this dataset.' })
+    throw createError({ statusCode: 400, statusMessage: 'We could not process the selected data. Please review your choices and try again.' })
   }
 
   const ai = new GoogleGenAI({ apiKey: config.geminiApiKey, httpOptions: { timeout: 60_000 } })
@@ -56,9 +56,9 @@ export default defineEventHandler(async (event) => {
     responseText = response.text
   } catch (error) {
     if (error instanceof ApiError && error.status === 429) {
-      throw createError({ statusCode: 429, statusMessage: 'Gemini is currently rate limited or out of quota. Please try again later.' })
+      throw createError({ statusCode: 429, statusMessage: 'Article generation is temporarily unavailable. Please try again shortly.' })
     }
-    throw createError({ statusCode: 502, statusMessage: 'Gemini could not generate the article. Please try again.' })
+    throw createError({ statusCode: 502, statusMessage: 'The article could not be generated. Please try again.' })
   }
 
   let editorial
@@ -66,7 +66,7 @@ export default defineEventHandler(async (event) => {
     editorial = editorialResponseSchema.parse(JSON.parse(responseText ?? ''))
     validateEditorialNumbers(editorial, prepared.context)
   } catch {
-    throw createError({ statusCode: 502, statusMessage: 'Gemini returned editorial content that failed validation.' })
+    throw createError({ statusCode: 502, statusMessage: 'The article could not be generated. Please try again.' })
   }
 
   const article = assembleBlogArticle(requestResult.data, editorial, prepared)
